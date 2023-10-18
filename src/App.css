@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: rgb(105, 46, 255);
+  color: white;
+  
+}
+
+.TodoWrapper {
+  margin-top: 115px;
+}
+.TodoWrapper h1 {
+  margin: 15px 540px
+}
+
+
+.TodoForm {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-input {
+  height: 40px;
+  width: 220px;
+  background: rgb(29, 0, 103);
+  border: none;
+  border-radius: 5px;
+}
+
+.todo-input::placeholder {
+  text-align: center;
+  color: rgb(167, 167, 167);
+}
+
+.todo-btn {
+  height: 40px;
+  width: 110px;
+  background: rgb(29, 0, 103);
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.Todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 15px; */
+  margin: 15px 540px
+}
+
+.fa-trash {
+  margin-left: 30px;
+}
+
+.fa-pen-to-square {
+  margin-left: 30px;
+}
+
+.EditTodoForm {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
